@@ -10,15 +10,15 @@
 
 Игнорируем (git не отслеживает изменения):
 
-**/.terraform/* - 
+**/.terraform/* - вложенную директорию .terraform/
 
-*.tfstate - лыбые файлы с расширением .tfstate
+*.tfstate - лыбые файлы с расширением .tfstate, включая файл .tfstate
 
 *.tfstate.* - лыбые файлы, содержащие в названии .tfstate.
 
 crash.log - файл логов crash.log
 
-*.tfvars - лыбые файлы с расширением
+*.tfvars - лыбые файлы с расширением .tfvars, включая файл .tfvars
 
 override.tf - файл override.tf
 
