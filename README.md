@@ -5,6 +5,7 @@
 Ещё одна строка
 
 New line 02-git-02-base
+New line from PyCharm
 
 
 
