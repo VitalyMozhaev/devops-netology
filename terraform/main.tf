@@ -34,6 +34,7 @@ data "aws_ami" "ubuntu" {
 resource "aws_instance" "netology_test" {
   ami           = data.aws_ami.ubuntu.id
   instance_type = "t3.micro"
+  count = 1
   cpu_core_count = 1
   cpu_threads_per_core = 1
   disable_api_termination = false
